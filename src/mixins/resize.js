@@ -1,5 +1,6 @@
 export default {
     created() {
+        this.setBreakpoint(document.documentElement.clientWidth)
         window.addEventListener("resize", this.myEventHandler);
     },
     destroyed() {
