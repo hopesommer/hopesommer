@@ -1,14 +1,12 @@
 <template>
     <header>
-      <div
-        class="container flex flex-col flex-wrap p-5 justify-center"
-        :class="isMobile ? 'p-0 pr-4' : 'p-4'"
-      >
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 w-screen py-5" :class="isMobile ? 'px-6' : 'px-10'">
         <div class="flex-1">
-          <span class="font-black text-4xl">H</span>
-          <img class="text-icon" src="../../public/favicon.ico" alt="Italian Trulli"/>
-          <span class="font-black text-4xl">PE</span>
+          <router-link class="flex" to="/">
+            <span class="font-black text-4xl">H</span>
+            <img class="text-icon self-center" src="/favicon.ico" alt="Italian Trulli"/>
+            <span class="font-black text-4xl">PE</span>
+          </router-link>
         </div>
         <div class="flex-none gap-2">
           <div v-if="isMobile" class="dropdown dropdown-end">
@@ -38,7 +36,6 @@
           </ul>
           </div>
         </div>
-      </div>
       </div>
     </header>
   </template>

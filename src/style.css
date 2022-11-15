@@ -6,10 +6,6 @@ header {
   border-bottom: 3px solid yellow;
 }
 
-.collapse {
-  color: #E96D7B;
-}
-
 .section-header {
   font-size: 26px;
   margin-top: 10px;
@@ -25,7 +21,6 @@ header {
 
 .container {
   height: 100px;
-  margin: auto;
 }
 
 /* .resume {

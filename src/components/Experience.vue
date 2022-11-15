@@ -14,7 +14,7 @@
                 <div class="collapse-title text-xl font-medium text-rose-400 flex align-center">
                     Read More
                 </div>
-                <div class="collapse-content px-7"> 
+                <div class="collapse-content px-7 text-rose-400"> 
                     <ul class="list-disc">
                     <li v-for="responsibility in job.responsibilities">
                         {{responsibility}}

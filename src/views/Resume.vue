@@ -1,6 +1,6 @@
 
 <template>
-  <div class="px-4 py-8 resume" :class="isMobile ? 'px-4' : 'px-8'">
+  <div class="py-8 resume" :class="isMobile ? 'px-6' : 'px-10'">
     <div class="font-semibold mb-7 text-5xl">Resume</div>
     <div v-if="isMobile">
       <Experience/>
