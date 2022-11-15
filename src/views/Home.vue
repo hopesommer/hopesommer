@@ -9,7 +9,7 @@
           <span class="card-title text-5xl">Hope Sommer</span>
           <span class="text-xl">Fullstack Developer</span>
           <div class="card-actions mt-3">
-            <button class="btn btn-primary white-text">Download CV</button>
+            <button class="btn btn-primary white-text"><a href="/files/hope_sommer.pdf" download>Download CV</a></button>
           </div>
         </div>
       </div>
