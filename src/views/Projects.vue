@@ -1,7 +1,7 @@
 <template>
     <div class="py-8 resume" :class="isMobile ? 'px-6' : 'px-10'">
         <div class="font-semibold mb-7 text-5xl">Projects</div>
-        <a href="https://pokedex-snr.vercel.app/">
+        <a href="https://pokedex-snr.vercel.app/" class="flex" :class="isMobile ? 'justify-center' : ''">
             <div class="card bg-base-100 shadow-xl relative" :class="!isMobile? 'w-96': 'w-60'">
             <figure class="projectImage"><img class="projectImage" src="/images/pokedex.png" alt="Shoes" /></figure>
             <div class="card-body">
