@@ -22,6 +22,9 @@
               <li>
                 <router-link to="/resume">Resume</router-link>
               </li>
+              <li>
+                <router-link to="/projects">Projects</router-link>
+              </li>
             </ul>
           </div>
           <div v-else>
@@ -32,6 +35,9 @@
         
             <button class="mr-5 text-sm font-semibold btn btn-outline btn-primary">
               <router-link to="/resume">Resume</router-link>
+            </button>
+            <button class="mr-5 text-sm font-semibold btn btn-outline btn-primary">
+              <router-link to="/projects">Projects</router-link>
             </button>
           </ul>
           </div>

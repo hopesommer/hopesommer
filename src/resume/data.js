@@ -96,7 +96,14 @@ export default {
         },
         {
             name: 'CSS'
+        },
+        {
+            name: 'TypeScript'
+        },
+        {
+            name: 'graphQL'
         }
+
     ],
     contact: {
         email: "hopesommer8@gmail.com",
